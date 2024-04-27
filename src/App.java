@@ -10,6 +10,7 @@ public class App {
 
         Player p2=new Player();
         p2.setNameandSymbol("Reeshma",'0');
+        p2.getNameandSymbol();
 
         Game g=new Game(new Player[] {p1,p2},b); 
         g.play();
